@@ -1,0 +1,415 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Adressebog - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Renata\LOKALE~1\Temp\RSP21.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Adressebog.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\moj program\ABook.cpp"
+"D:\moj program\CGroup.cpp"
+"D:\moj program\Main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Renata\LOKALE~1\Temp\RSP21.tmp" 
+Creating temporary file "C:\DOCUME~1\Renata\LOKALE~1\Temp\RSP22.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Adressebog.pdb" /debug /machine:I386 /out:"Debug/Adressebog.exe" /pdbtype:sept 
+".\Debug\ABook.obj"
+".\Debug\CGroup.obj"
+".\Debug\Contact.obj"
+".\Debug\Main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Renata\LOKALE~1\Temp\RSP22.tmp"
+<h3>Output Window</h3>
+Compiling...
+ABook.cpp
+d:\moj program\collection.h(34) : warning C4141: 'friend' : used more than once
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2236: unexpected 'struct' 'Element'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2628: 'Element' followed by 'void' is illegal (did you forget a ';'?)
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ')' before '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ';' before '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : ')'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(38) : error C2059: syntax error : '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(38) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(53) : error C2989: 'Element' : template class has already been defined as a non-template class
+        d:\moj program\collection.h(36) : see declaration of 'Element'
+d:\moj program\collection.h(59) : error C2059: syntax error : '<'
+d:\moj program\collection.h(64) : error C2065: 'e' : undeclared identifier
+d:\moj program\collection.h(64) : error C2501: 't' : missing storage-class or type specifiers
+d:\moj program\collection.h(64) : error C2501: 'prev' : missing storage-class or type specifiers
+d:\moj program\collection.h(64) : error C2065: 'n' : undeclared identifier
+d:\moj program\collection.h(64) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+d:\moj program\collection.h(69) : error C2954: template definitions cannot nest
+d:\moj program\collection.h(70) : error C2059: syntax error : '<'
+d:\moj program\collection.h(78) : error C2065: 'T' : undeclared identifier
+d:\moj program\collection.h(78) : error C2143: syntax error : missing ';' before '{'
+d:\moj program\collection.h(78) : error C2447: missing function header (old-style formal list?)
+d:\moj program\collection.h(89) : error C2954: template definitions cannot nest
+d:\moj program\collection.h(250) : error C2059: syntax error : '<'
+        d:\moj program\collection.h(252) : see reference to class template instantiation 'IteratorCollection<T>' being compiled
+d:\moj program\collection.h(250) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\collection.h(252) : see reference to class template instantiation 'IteratorCollection<T>' being compiled
+d:\moj program\abitem.h(19) : error C2146: syntax error : missing ';' before identifier 'getName'
+d:\moj program\abitem.h(19) : error C2433: 'string' : 'virtual' not permitted on data declarations
+d:\moj program\abitem.h(19) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\abitem.h(19) : error C2253: 'getName' : pure specifier only applies to virtual function - specifier ignored
+d:\moj program\abook.h(16) : error C2061: syntax error : identifier 'string'
+d:\moj program\abook.h(18) : error C2146: syntax error : missing ';' before identifier 'getName'
+d:\moj program\abook.h(18) : warning C4183: 'getName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\abook.h(19) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(19) : error C2061: syntax error : identifier 'string'
+d:\moj program\abook.h(27) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(27) : error C2061: syntax error : identifier 'string'
+d:\moj program\abook.h(31) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(31) : error C2629: unexpected 'class AddressBook ('
+d:\moj program\abook.h(31) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(31) : error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\moj program\abook.h(35) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(35) : error C2146: syntax error : missing ';' before identifier 'myName'
+d:\moj program\abook.h(35) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\abook.h(35) : error C2501: 'myName' : missing storage-class or type specifiers
+d:\moj program\collection.h(34) : warning C4141: 'friend' : used more than once
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2236: unexpected 'struct' 'Element'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2628: 'Element' followed by 'void' is illegal (did you forget a ';'?)
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ')' before '<'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ';' before '<'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : '<'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : ')'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(38) : error C2059: syntax error : '<'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(38) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\contact.h(16) : error C2061: syntax error : identifier 'string'
+d:\moj program\contact.h(18) : error C2146: syntax error : missing ';' before identifier 'getName'
+d:\moj program\contact.h(18) : error C2433: 'string' : 'virtual' not permitted on data declarations
+d:\moj program\contact.h(18) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\contact.h(18) : warning C4183: 'getName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\contact.h(20) : error C2146: syntax error : missing ';' before identifier 'getFirstName'
+d:\moj program\contact.h(20) : warning C4183: 'getFirstName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\contact.h(21) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(21) : error C2146: syntax error : missing ';' before identifier 'getLastName'
+d:\moj program\contact.h(21) : error C2734: 'string' : const object must be initialized if not extern
+d:\moj program\contact.h(21) : error C2086: 'string' : redefinition
+d:\moj program\contact.h(21) : warning C4183: 'getLastName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\contact.h(22) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(22) : error C2146: syntax error : missing ';' before identifier 'getEmail'
+d:\moj program\contact.h(22) : error C2734: 'string' : const object must be initialized if not extern
+d:\moj program\contact.h(22) : error C2086: 'string' : redefinition
+d:\moj program\contact.h(22) : warning C4183: 'getEmail': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\contact.h(23) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(23) : error C2146: syntax error : missing ';' before identifier 'getPhoneNum'
+d:\moj program\contact.h(23) : error C2734: 'string' : const object must be initialized if not extern
+d:\moj program\contact.h(23) : error C2086: 'string' : redefinition
+d:\moj program\contact.h(23) : warning C4183: 'getPhoneNum': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\contact.h(25) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(25) : error C2061: syntax error : identifier 'string'
+d:\moj program\contact.h(26) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(26) : error C2061: syntax error : identifier 'string'
+d:\moj program\contact.h(27) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(27) : error C2061: syntax error : identifier 'string'
+d:\moj program\contact.h(28) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(28) : error C2061: syntax error : identifier 'string'
+d:\moj program\contact.h(36) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(36) : error C2629: unexpected 'class Contact ('
+d:\moj program\contact.h(36) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(36) : error C2238: unexpected token(s) preceding ';'
+d:\moj program\contact.h(40) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(40) : error C2146: syntax error : missing ';' before identifier 'firstName'
+d:\moj program\contact.h(40) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\contact.h(40) : error C2501: 'firstName' : missing storage-class or type specifiers
+d:\moj program\contact.h(41) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(41) : error C2146: syntax error : missing ';' before identifier 'lastName'
+d:\moj program\contact.h(41) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\contact.h(41) : error C2501: 'lastName' : missing storage-class or type specifiers
+d:\moj program\contact.h(42) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(42) : error C2146: syntax error : missing ';' before identifier 'email'
+d:\moj program\contact.h(42) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\contact.h(42) : error C2501: 'email' : missing storage-class or type specifiers
+d:\moj program\contact.h(43) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(43) : error C2146: syntax error : missing ';' before identifier 'phoneNum'
+d:\moj program\contact.h(43) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\contact.h(43) : error C2501: 'phoneNum' : missing storage-class or type specifiers
+d:\moj program\cgroup.h(15) : error C2061: syntax error : identifier 'string'
+d:\moj program\cgroup.h(17) : error C2146: syntax error : missing ';' before identifier 'getName'
+d:\moj program\cgroup.h(17) : error C2433: 'string' : 'virtual' not permitted on data declarations
+d:\moj program\cgroup.h(17) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\cgroup.h(17) : warning C4183: 'getName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\cgroup.h(18) : error C2061: syntax error : identifier 'string'
+d:\moj program\cgroup.h(18) : fatal error C1003: error count exceeds 100; stopping compilation
+CGroup.cpp
+d:\moj program\collection.h(34) : warning C4141: 'friend' : used more than once
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2236: unexpected 'struct' 'Element'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2628: 'Element' followed by 'void' is illegal (did you forget a ';'?)
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ')' before '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ';' before '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : ')'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(38) : error C2059: syntax error : '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(38) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(53) : error C2989: 'Element' : template class has already been defined as a non-template class
+        d:\moj program\collection.h(36) : see declaration of 'Element'
+d:\moj program\collection.h(59) : error C2059: syntax error : '<'
+d:\moj program\collection.h(64) : error C2065: 'e' : undeclared identifier
+d:\moj program\collection.h(64) : error C2501: 't' : missing storage-class or type specifiers
+d:\moj program\collection.h(64) : error C2501: 'prev' : missing storage-class or type specifiers
+d:\moj program\collection.h(64) : error C2065: 'n' : undeclared identifier
+d:\moj program\collection.h(64) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+d:\moj program\collection.h(69) : error C2954: template definitions cannot nest
+d:\moj program\collection.h(70) : error C2059: syntax error : '<'
+d:\moj program\collection.h(78) : error C2065: 'T' : undeclared identifier
+d:\moj program\collection.h(78) : error C2143: syntax error : missing ';' before '{'
+d:\moj program\collection.h(78) : error C2447: missing function header (old-style formal list?)
+d:\moj program\collection.h(89) : error C2954: template definitions cannot nest
+d:\moj program\collection.h(250) : error C2059: syntax error : '<'
+        d:\moj program\collection.h(252) : see reference to class template instantiation 'IteratorCollection<T>' being compiled
+d:\moj program\collection.h(250) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\collection.h(252) : see reference to class template instantiation 'IteratorCollection<T>' being compiled
+d:\moj program\abitem.h(19) : error C2146: syntax error : missing ';' before identifier 'getName'
+d:\moj program\abitem.h(19) : error C2433: 'string' : 'virtual' not permitted on data declarations
+d:\moj program\abitem.h(19) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\abitem.h(19) : error C2253: 'getName' : pure specifier only applies to virtual function - specifier ignored
+d:\moj program\cgroup.h(15) : error C2061: syntax error : identifier 'string'
+d:\moj program\cgroup.h(17) : error C2146: syntax error : missing ';' before identifier 'getName'
+d:\moj program\cgroup.h(17) : error C2433: 'string' : 'virtual' not permitted on data declarations
+d:\moj program\cgroup.h(17) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\cgroup.h(17) : warning C4183: 'getName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\cgroup.h(18) : error C2061: syntax error : identifier 'string'
+d:\moj program\cgroup.h(27) : error C2061: syntax error : identifier 'string'
+d:\moj program\cgroup.h(31) : error C2629: unexpected 'class ContactGroup ('
+d:\moj program\cgroup.h(31) : error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+d:\moj program\cgroup.h(35) : error C2146: syntax error : missing ';' before identifier 'myName'
+d:\moj program\cgroup.h(35) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\cgroup.h(35) : error C2501: 'myName' : missing storage-class or type specifiers
+d:\moj program\collection.h(34) : warning C4141: 'friend' : used more than once
+        d:\moj program\cgroup.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2236: unexpected 'struct' 'Element'
+        d:\moj program\cgroup.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2628: 'Element' followed by 'void' is illegal (did you forget a ';'?)
+        d:\moj program\cgroup.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ')' before '<'
+        d:\moj program\cgroup.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ';' before '<'
+        d:\moj program\cgroup.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : '<'
+        d:\moj program\cgroup.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : ')'
+        d:\moj program\cgroup.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\cgroup.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(38) : error C2059: syntax error : '<'
+        d:\moj program\cgroup.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(38) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\cgroup.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\abook.h(16) : error C2061: syntax error : identifier 'string'
+d:\moj program\abook.h(18) : error C2146: syntax error : missing ';' before identifier 'getName'
+d:\moj program\abook.h(18) : warning C4183: 'getName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\abook.h(19) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(19) : error C2061: syntax error : identifier 'string'
+d:\moj program\abook.h(27) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(27) : error C2061: syntax error : identifier 'string'
+d:\moj program\abook.h(31) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(31) : error C2629: unexpected 'class AddressBook ('
+d:\moj program\abook.h(31) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(31) : error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\moj program\abook.h(35) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(35) : error C2146: syntax error : missing ';' before identifier 'myName'
+d:\moj program\abook.h(35) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\abook.h(35) : error C2501: 'myName' : missing storage-class or type specifiers
+d:\moj program\cgroup.cpp(10) : error C2061: syntax error : identifier 'string'
+d:\moj program\cgroup.cpp(11) : error C2065: 'name' : undeclared identifier
+d:\moj program\cgroup.cpp(22) : error C2065: 'string' : undeclared identifier
+d:\moj program\cgroup.cpp(22) : error C2146: syntax error : missing ';' before identifier 's'
+d:\moj program\cgroup.cpp(22) : error C2065: 's' : undeclared identifier
+d:\moj program\cgroup.cpp(24) : error C2440: '=' : cannot convert from 'char [100]' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+d:\moj program\cgroup.cpp(34) : error C2440: '=' : cannot convert from 'char [100]' to 'int'
+        This conversion requires a reinterpret_cast, a C-style cast or function-style cast
+d:\moj program\cgroup.cpp(44) : error C2039: 'createIterator' : is not a member of 'Collection<class ABItem *>'
+d:\moj program\collection.h(250) : error C2059: syntax error : '<'
+        d:\moj program\cgroup.cpp(45) : see reference to class template instantiation 'IteratorCollection<class ABItem *>' being compiled
+d:\moj program\collection.h(250) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\cgroup.cpp(45) : see reference to class template instantiation 'IteratorCollection<class ABItem *>' being compiled
+d:\moj program\cgroup.cpp(55) : error C2039: 'createIterator' : is not a member of 'Collection<class ABItem *>'
+d:\moj program\cgroup.cpp(64) : error C2146: syntax error : missing ',' before identifier 'name'
+d:\moj program\cgroup.cpp(64) : error C2061: syntax error : identifier 'name'
+d:\moj program\cgroup.cpp(64) : error C2511: 'getItem' : overloaded member function 'class ABItem *(const int) const' not found in 'ContactGroup'
+        d:\moj program\cgroup.h(11) : see declaration of 'ContactGroup'
+Main.cpp
+d:\moj program\collection.h(34) : warning C4141: 'friend' : used more than once
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2236: unexpected 'struct' 'Element'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2628: 'Element' followed by 'void' is illegal (did you forget a ';'?)
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ')' before '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ';' before '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : ')'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(36) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(38) : error C2059: syntax error : '<'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(38) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\collection.h(41) : see reference to class template instantiation 'Collection<T>' being compiled
+d:\moj program\collection.h(53) : error C2989: 'Element' : template class has already been defined as a non-template class
+        d:\moj program\collection.h(36) : see declaration of 'Element'
+d:\moj program\collection.h(59) : error C2059: syntax error : '<'
+d:\moj program\collection.h(64) : error C2065: 'e' : undeclared identifier
+d:\moj program\collection.h(64) : error C2501: 't' : missing storage-class or type specifiers
+d:\moj program\collection.h(64) : error C2501: 'prev' : missing storage-class or type specifiers
+d:\moj program\collection.h(64) : error C2065: 'n' : undeclared identifier
+d:\moj program\collection.h(64) : error C2448: '<Unknown>' : function-style initializer appears to be a function definition
+d:\moj program\collection.h(69) : error C2954: template definitions cannot nest
+d:\moj program\collection.h(70) : error C2059: syntax error : '<'
+d:\moj program\collection.h(78) : error C2065: 'T' : undeclared identifier
+d:\moj program\collection.h(78) : error C2143: syntax error : missing ';' before '{'
+d:\moj program\collection.h(78) : error C2447: missing function header (old-style formal list?)
+d:\moj program\collection.h(89) : error C2954: template definitions cannot nest
+d:\moj program\collection.h(250) : error C2059: syntax error : '<'
+        d:\moj program\collection.h(252) : see reference to class template instantiation 'IteratorCollection<T>' being compiled
+d:\moj program\collection.h(250) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\collection.h(252) : see reference to class template instantiation 'IteratorCollection<T>' being compiled
+d:\moj program\abitem.h(19) : error C2146: syntax error : missing ';' before identifier 'getName'
+d:\moj program\abitem.h(19) : error C2433: 'string' : 'virtual' not permitted on data declarations
+d:\moj program\abitem.h(19) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\abitem.h(19) : error C2253: 'getName' : pure specifier only applies to virtual function - specifier ignored
+d:\moj program\abook.h(16) : error C2061: syntax error : identifier 'string'
+d:\moj program\abook.h(18) : error C2146: syntax error : missing ';' before identifier 'getName'
+d:\moj program\abook.h(18) : warning C4183: 'getName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\abook.h(19) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(19) : error C2061: syntax error : identifier 'string'
+d:\moj program\abook.h(27) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(27) : error C2061: syntax error : identifier 'string'
+d:\moj program\abook.h(31) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(31) : error C2629: unexpected 'class AddressBook ('
+d:\moj program\abook.h(31) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(31) : error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+d:\moj program\abook.h(35) : error C2327: 'AddressBook::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\abook.h(35) : error C2146: syntax error : missing ';' before identifier 'myName'
+d:\moj program\abook.h(35) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\abook.h(35) : error C2501: 'myName' : missing storage-class or type specifiers
+d:\moj program\collection.h(34) : warning C4141: 'friend' : used more than once
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2236: unexpected 'struct' 'Element'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2628: 'Element' followed by 'void' is illegal (did you forget a ';'?)
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ')' before '<'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2143: syntax error : missing ';' before '<'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : '<'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2059: syntax error : ')'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(36) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(38) : error C2059: syntax error : '<'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\collection.h(38) : error C2238: unexpected token(s) preceding ';'
+        d:\moj program\abook.h(37) : see reference to class template instantiation 'Collection<class ABItem *>' being compiled
+d:\moj program\contact.h(16) : error C2061: syntax error : identifier 'string'
+d:\moj program\contact.h(18) : error C2146: syntax error : missing ';' before identifier 'getName'
+d:\moj program\contact.h(18) : error C2433: 'string' : 'virtual' not permitted on data declarations
+d:\moj program\contact.h(18) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\contact.h(18) : warning C4183: 'getName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\contact.h(20) : error C2146: syntax error : missing ';' before identifier 'getFirstName'
+d:\moj program\contact.h(20) : warning C4183: 'getFirstName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\contact.h(21) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(21) : error C2146: syntax error : missing ';' before identifier 'getLastName'
+d:\moj program\contact.h(21) : error C2734: 'string' : const object must be initialized if not extern
+d:\moj program\contact.h(21) : error C2086: 'string' : redefinition
+d:\moj program\contact.h(21) : warning C4183: 'getLastName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\contact.h(22) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(22) : error C2146: syntax error : missing ';' before identifier 'getEmail'
+d:\moj program\contact.h(22) : error C2734: 'string' : const object must be initialized if not extern
+d:\moj program\contact.h(22) : error C2086: 'string' : redefinition
+d:\moj program\contact.h(22) : warning C4183: 'getEmail': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\contact.h(23) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(23) : error C2146: syntax error : missing ';' before identifier 'getPhoneNum'
+d:\moj program\contact.h(23) : error C2734: 'string' : const object must be initialized if not extern
+d:\moj program\contact.h(23) : error C2086: 'string' : redefinition
+d:\moj program\contact.h(23) : warning C4183: 'getPhoneNum': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\contact.h(25) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(25) : error C2061: syntax error : identifier 'string'
+d:\moj program\contact.h(26) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(26) : error C2061: syntax error : identifier 'string'
+d:\moj program\contact.h(27) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(27) : error C2061: syntax error : identifier 'string'
+d:\moj program\contact.h(28) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(28) : error C2061: syntax error : identifier 'string'
+d:\moj program\contact.h(36) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(36) : error C2629: unexpected 'class Contact ('
+d:\moj program\contact.h(36) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(36) : error C2238: unexpected token(s) preceding ';'
+d:\moj program\contact.h(40) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(40) : error C2146: syntax error : missing ';' before identifier 'firstName'
+d:\moj program\contact.h(40) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\contact.h(40) : error C2501: 'firstName' : missing storage-class or type specifiers
+d:\moj program\contact.h(41) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(41) : error C2146: syntax error : missing ';' before identifier 'lastName'
+d:\moj program\contact.h(41) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\contact.h(41) : error C2501: 'lastName' : missing storage-class or type specifiers
+d:\moj program\contact.h(42) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(42) : error C2146: syntax error : missing ';' before identifier 'email'
+d:\moj program\contact.h(42) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\contact.h(42) : error C2501: 'email' : missing storage-class or type specifiers
+d:\moj program\contact.h(43) : error C2327: 'Contact::string' : member from enclosing class is not a type name, static, or enumerator
+d:\moj program\contact.h(43) : error C2146: syntax error : missing ';' before identifier 'phoneNum'
+d:\moj program\contact.h(43) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\contact.h(43) : error C2501: 'phoneNum' : missing storage-class or type specifiers
+d:\moj program\cgroup.h(15) : error C2061: syntax error : identifier 'string'
+d:\moj program\cgroup.h(17) : error C2146: syntax error : missing ';' before identifier 'getName'
+d:\moj program\cgroup.h(17) : error C2433: 'string' : 'virtual' not permitted on data declarations
+d:\moj program\cgroup.h(17) : error C2501: 'string' : missing storage-class or type specifiers
+d:\moj program\cgroup.h(17) : warning C4183: 'getName': member function definition looks like a ctor, but name does not match enclosing class
+d:\moj program\cgroup.h(18) : error C2061: syntax error : identifier 'string'
+d:\moj program\cgroup.h(18) : fatal error C1003: error count exceeds 100; stopping compilation
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Adressebog.exe - 280 error(s), 22 warning(s)
+</pre>
+</body>
+</html>
